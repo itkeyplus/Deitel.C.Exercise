@@ -57,12 +57,11 @@ int main(void)
 
 	jame_sharje = sharje_mashin_1 + sharje_mashin_2 + sharje_mashin_3 ;
 
-
-  	printf("Khodro\tSaatha\tSharje\n");
+	printf("Khodro\tSaatha\tSharje\n");
   	printf("%d\t%5.1f\t%6.2f\n", 1, saat_mashin_1, sharje_mashin_1);
-    printf("%d\t%5.1f\t%6.2f\n", 2, saat_mashin_2, sharje_mashin_2);
-    printf("%d\t%5.1f\t%6.2f\n", 3, saat_mashin_3, sharje_mashin_3);
-    printf("TOTAL\t%5.1f\t%6.2f\n", jame_saat, jame_sharje);
+        printf("%d\t%5.1f\t%6.2f\n", 2, saat_mashin_2, sharje_mashin_2);
+        printf("%d\t%5.1f\t%6.2f\n", 3, saat_mashin_3, sharje_mashin_3);
+        printf("TOTAL\t%5.1f\t%6.2f\n", jame_saat, jame_sharje);
 
 		
     return 0;
